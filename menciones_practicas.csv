@@ -1,0 +1,302 @@
+id_comentario,practica_docente,valoracion
+C001,Claridad explicativa,efectiva
+C002,Claridad explicativa,malfuncional
+C003,Organización de la clase,malfuncional
+C004,Uso de ejemplos,efectiva
+C005,Uso de ejemplos,ambigua
+C005,Retroalimentación,efectiva
+C006,Claridad explicativa,malfuncional
+C007,Organización de la clase,efectiva
+C008,Organización de la clase,malfuncional
+C008,Claridad explicativa,efectiva
+C009,Uso de ejemplos,efectiva
+C009,Claridad explicativa,efectiva
+C010,Uso de ejemplos,efectiva
+C011,Claridad explicativa,malfuncional
+C012,Claridad explicativa,efectiva
+C013,Retroalimentación,malfuncional
+C014,Claridad explicativa,malfuncional
+C014,Instrucciones de evaluación,efectiva
+C015,Claridad explicativa,efectiva
+C015,Organización de la clase,ambigua
+C016,Organización de la clase,malfuncional
+C016,Uso de ejemplos,malfuncional
+C017,Claridad explicativa,malfuncional
+C018,Claridad explicativa,malfuncional
+C018,Organización de la clase,efectiva
+C019,Uso de ejemplos,malfuncional
+C019,Retroalimentación,efectiva
+C020,Organización de la clase,malfuncional
+C021,Instrucciones de evaluación,efectiva
+C021,Claridad explicativa,efectiva
+C022,Uso de ejemplos,malfuncional
+C023,Instrucciones de evaluación,efectiva
+C024,Claridad explicativa,malfuncional
+C024,Retroalimentación,efectiva
+C025,Instrucciones de evaluación,malfuncional
+C025,Claridad explicativa,malfuncional
+C026,Instrucciones de evaluación,efectiva
+C026,Claridad explicativa,efectiva
+C027,Organización de la clase,efectiva
+C027,Claridad explicativa,malfuncional
+C028,Instrucciones de evaluación,malfuncional
+C029,Instrucciones de evaluación,efectiva
+C030,Organización de la clase,efectiva
+C031,Uso de ejemplos,efectiva
+C032,Claridad explicativa,ambigua
+C032,Retroalimentación,ambigua
+C032,Organización de la clase,efectiva
+C033,Uso de ejemplos,malfuncional
+C034,Uso de ejemplos,efectiva
+C034,Claridad explicativa,malfuncional
+C035,Instrucciones de evaluación,efectiva
+C036,Organización de la clase,malfuncional
+C036,Claridad explicativa,malfuncional
+C037,Organización de la clase,malfuncional
+C037,Instrucciones de evaluación,efectiva
+C038,Claridad explicativa,efectiva
+C038,Retroalimentación,ambigua
+C039,Instrucciones de evaluación,ambigua
+C039,Uso de ejemplos,efectiva
+C040,Uso de ejemplos,efectiva
+C041,Uso de ejemplos,ambigua
+C042,Instrucciones de evaluación,malfuncional
+C042,Claridad explicativa,malfuncional
+C043,Instrucciones de evaluación,efectiva
+C044,Instrucciones de evaluación,efectiva
+C045,Uso de ejemplos,malfuncional
+C046,Instrucciones de evaluación,efectiva
+C046,Organización de la clase,efectiva
+C046,Retroalimentación,efectiva
+C047,Retroalimentación,efectiva
+C047,Uso de ejemplos,efectiva
+C048,Retroalimentación,efectiva
+C049,Claridad explicativa,efectiva
+C050,Claridad explicativa,efectiva
+C050,Retroalimentación,ambigua
+C051,Uso de ejemplos,efectiva
+C052,Claridad explicativa,malfuncional
+C052,Instrucciones de evaluación,efectiva
+C053,Organización de la clase,efectiva
+C054,Organización de la clase,malfuncional
+C054,Instrucciones de evaluación,efectiva
+C055,Retroalimentación,efectiva
+C055,Claridad explicativa,efectiva
+C056,Claridad explicativa,efectiva
+C057,Uso de ejemplos,ambigua
+C058,Retroalimentación,ambigua
+C059,Organización de la clase,efectiva
+C059,Claridad explicativa,efectiva
+C060,Organización de la clase,malfuncional
+C060,Instrucciones de evaluación,malfuncional
+C060,Retroalimentación,ambigua
+C061,Uso de ejemplos,efectiva
+C062,Instrucciones de evaluación,efectiva
+C063,Claridad explicativa,efectiva
+C063,Retroalimentación,efectiva
+C063,Organización de la clase,efectiva
+C064,Uso de ejemplos,efectiva
+C064,Claridad explicativa,efectiva
+C065,Claridad explicativa,efectiva
+C065,Uso de ejemplos,malfuncional
+C065,Instrucciones de evaluación,malfuncional
+C066,Claridad explicativa,efectiva
+C066,Uso de ejemplos,malfuncional
+C067,Retroalimentación,ambigua
+C067,Uso de ejemplos,malfuncional
+C068,Instrucciones de evaluación,malfuncional
+C069,Uso de ejemplos,efectiva
+C070,Instrucciones de evaluación,malfuncional
+C071,Retroalimentación,malfuncional
+C072,Claridad explicativa,malfuncional
+C072,Retroalimentación,malfuncional
+C073,Retroalimentación,efectiva
+C074,Organización de la clase,malfuncional
+C075,Uso de ejemplos,malfuncional
+C076,Organización de la clase,efectiva
+C077,Organización de la clase,malfuncional
+C077,Instrucciones de evaluación,efectiva
+C078,Claridad explicativa,efectiva
+C079,Claridad explicativa,efectiva
+C079,Retroalimentación,malfuncional
+C079,Uso de ejemplos,malfuncional
+C080,Retroalimentación,malfuncional
+C080,Uso de ejemplos,malfuncional
+C080,Organización de la clase,malfuncional
+C081,Uso de ejemplos,efectiva
+C082,Claridad explicativa,efectiva
+C083,Claridad explicativa,efectiva
+C084,Uso de ejemplos,ambigua
+C085,Organización de la clase,efectiva
+C085,Retroalimentación,malfuncional
+C085,Claridad explicativa,efectiva
+C086,Claridad explicativa,malfuncional
+C087,Retroalimentación,efectiva
+C088,Retroalimentación,efectiva
+C089,Retroalimentación,efectiva
+C089,Uso de ejemplos,efectiva
+C090,Claridad explicativa,efectiva
+C090,Instrucciones de evaluación,efectiva
+C091,Organización de la clase,ambigua
+C092,Claridad explicativa,efectiva
+C093,Claridad explicativa,malfuncional
+C094,Instrucciones de evaluación,malfuncional
+C094,Claridad explicativa,efectiva
+C095,Uso de ejemplos,efectiva
+C096,Organización de la clase,ambigua
+C096,Uso de ejemplos,malfuncional
+C097,Instrucciones de evaluación,efectiva
+C097,Uso de ejemplos,efectiva
+C098,Uso de ejemplos,malfuncional
+C099,Claridad explicativa,ambigua
+C100,Uso de ejemplos,efectiva
+C101,Retroalimentación,malfuncional
+C102,Claridad explicativa,malfuncional
+C102,Retroalimentación,ambigua
+C103,Claridad explicativa,efectiva
+C103,Retroalimentación,efectiva
+C104,Organización de la clase,malfuncional
+C105,Organización de la clase,efectiva
+C105,Uso de ejemplos,efectiva
+C106,Claridad explicativa,efectiva
+C106,Organización de la clase,efectiva
+C107,Instrucciones de evaluación,efectiva
+C107,Claridad explicativa,ambigua
+C107,Organización de la clase,efectiva
+C108,Instrucciones de evaluación,malfuncional
+C108,Uso de ejemplos,malfuncional
+C109,Uso de ejemplos,malfuncional
+C109,Organización de la clase,malfuncional
+C110,Uso de ejemplos,efectiva
+C111,Instrucciones de evaluación,efectiva
+C111,Retroalimentación,malfuncional
+C112,Retroalimentación,malfuncional
+C112,Claridad explicativa,ambigua
+C113,Uso de ejemplos,efectiva
+C114,Retroalimentación,malfuncional
+C115,Organización de la clase,efectiva
+C115,Instrucciones de evaluación,malfuncional
+C116,Claridad explicativa,ambigua
+C117,Uso de ejemplos,malfuncional
+C118,Uso de ejemplos,ambigua
+C118,Organización de la clase,efectiva
+C119,Uso de ejemplos,malfuncional
+C120,Uso de ejemplos,malfuncional
+C120,Claridad explicativa,efectiva
+C120,Retroalimentación,efectiva
+C121,Claridad explicativa,ambigua
+C122,Claridad explicativa,efectiva
+C122,Retroalimentación,efectiva
+C123,Claridad explicativa,efectiva
+C124,Uso de ejemplos,efectiva
+C125,Instrucciones de evaluación,efectiva
+C125,Organización de la clase,ambigua
+C126,Instrucciones de evaluación,efectiva
+C127,Organización de la clase,efectiva
+C127,Uso de ejemplos,malfuncional
+C128,Uso de ejemplos,ambigua
+C129,Uso de ejemplos,efectiva
+C130,Claridad explicativa,ambigua
+C131,Retroalimentación,efectiva
+C131,Claridad explicativa,malfuncional
+C132,Uso de ejemplos,malfuncional
+C132,Instrucciones de evaluación,efectiva
+C133,Organización de la clase,efectiva
+C134,Uso de ejemplos,efectiva
+C134,Organización de la clase,malfuncional
+C134,Retroalimentación,efectiva
+C135,Instrucciones de evaluación,malfuncional
+C136,Organización de la clase,efectiva
+C137,Organización de la clase,efectiva
+C137,Claridad explicativa,malfuncional
+C138,Retroalimentación,efectiva
+C139,Organización de la clase,efectiva
+C139,Uso de ejemplos,ambigua
+C140,Retroalimentación,efectiva
+C140,Claridad explicativa,efectiva
+C141,Claridad explicativa,efectiva
+C141,Instrucciones de evaluación,efectiva
+C142,Retroalimentación,ambigua
+C142,Organización de la clase,malfuncional
+C143,Claridad explicativa,efectiva
+C144,Retroalimentación,efectiva
+C145,Instrucciones de evaluación,malfuncional
+C146,Uso de ejemplos,malfuncional
+C147,Instrucciones de evaluación,malfuncional
+C148,Claridad explicativa,efectiva
+C149,Retroalimentación,efectiva
+C150,Organización de la clase,efectiva
+C151,Retroalimentación,efectiva
+C151,Organización de la clase,efectiva
+C152,Retroalimentación,efectiva
+C153,Uso de ejemplos,malfuncional
+C154,Retroalimentación,efectiva
+C155,Instrucciones de evaluación,malfuncional
+C155,Claridad explicativa,efectiva
+C156,Retroalimentación,malfuncional
+C156,Claridad explicativa,ambigua
+C157,Retroalimentación,ambigua
+C158,Instrucciones de evaluación,efectiva
+C159,Organización de la clase,efectiva
+C159,Uso de ejemplos,malfuncional
+C160,Claridad explicativa,efectiva
+C160,Organización de la clase,malfuncional
+C161,Claridad explicativa,malfuncional
+C161,Uso de ejemplos,efectiva
+C162,Uso de ejemplos,efectiva
+C162,Claridad explicativa,efectiva
+C163,Retroalimentación,efectiva
+C163,Uso de ejemplos,efectiva
+C164,Instrucciones de evaluación,efectiva
+C164,Retroalimentación,efectiva
+C165,Organización de la clase,efectiva
+C165,Uso de ejemplos,ambigua
+C166,Claridad explicativa,efectiva
+C167,Retroalimentación,malfuncional
+C168,Retroalimentación,ambigua
+C168,Claridad explicativa,malfuncional
+C169,Organización de la clase,efectiva
+C170,Organización de la clase,efectiva
+C171,Instrucciones de evaluación,efectiva
+C171,Claridad explicativa,efectiva
+C172,Claridad explicativa,efectiva
+C172,Organización de la clase,efectiva
+C173,Claridad explicativa,efectiva
+C173,Uso de ejemplos,efectiva
+C174,Organización de la clase,efectiva
+C174,Claridad explicativa,ambigua
+C174,Instrucciones de evaluación,ambigua
+C175,Instrucciones de evaluación,ambigua
+C175,Retroalimentación,malfuncional
+C176,Organización de la clase,malfuncional
+C177,Retroalimentación,malfuncional
+C178,Retroalimentación,efectiva
+C178,Instrucciones de evaluación,efectiva
+C179,Claridad explicativa,ambigua
+C180,Retroalimentación,malfuncional
+C181,Claridad explicativa,efectiva
+C182,Claridad explicativa,efectiva
+C183,Organización de la clase,malfuncional
+C184,Uso de ejemplos,ambigua
+C185,Instrucciones de evaluación,ambigua
+C186,Claridad explicativa,efectiva
+C187,Retroalimentación,ambigua
+C188,Uso de ejemplos,malfuncional
+C188,Retroalimentación,efectiva
+C188,Instrucciones de evaluación,malfuncional
+C189,Claridad explicativa,efectiva
+C189,Instrucciones de evaluación,malfuncional
+C190,Instrucciones de evaluación,efectiva
+C191,Organización de la clase,malfuncional
+C192,Uso de ejemplos,malfuncional
+C193,Instrucciones de evaluación,malfuncional
+C194,Organización de la clase,efectiva
+C194,Uso de ejemplos,efectiva
+C195,Retroalimentación,efectiva
+C196,Instrucciones de evaluación,efectiva
+C196,Uso de ejemplos,efectiva
+C197,Claridad explicativa,efectiva
+C198,Instrucciones de evaluación,efectiva
+C198,Organización de la clase,efectiva
+C199,Retroalimentación,efectiva
+C200,Instrucciones de evaluación,malfuncional
