@@ -211,8 +211,9 @@ El notebook utiliza rutas relativas cuando los CSV están en el mismo directorio
 | Herramienta | Uso realizado | Verificación de las salidas |
 |---|---|---|
 | **ChatGPT (OpenAI)** | Apoyo en la estructuración y revisión del trabajo; diseño del esquema del dataset sintético; generación y revisión del script de datos; desarrollo y revisión del notebook de prueba de concepto; apoyo en la documentación y preparación del pitch. | Las propuestas se contrastaron con el enunciado y con las decisiones tomadas en las fases anteriores. El script ejecuta validaciones automáticas de consistencia; el notebook fue ejecutado completamente para comprobar cálculos y visualizaciones; las fórmulas de los indicadores se revisaron respecto del diseño definido; y las asignaturas utilizadas como contexto fueron contrastadas con la malla de Computación proporcionada. |
+| **Figma Make (IA integrada)** | Generación del prototipo interactivo de baja fidelidad **Teaching Analytics — Análisis de prácticas docentes** a partir de un prompt detallado con exactamente tres pantallas: panorama general, análisis de práctica y evidencia textual/reflexión docente. La IA se utilizó para proponer la interfaz, navegación, filtros simulados, visualizaciones y anotaciones académicas de los wireframes. | El prototipo se contrastó con el Canvas, el diccionario de datos y los indicadores I01–I04 definidos previamente. Se comprobó que utilizara exclusivamente las variables aprobadas, que los porcentajes y frecuencias ilustrativos fueran coherentes, que la navegación siguiera el flujo diseñado y que no incorporara predicciones, rankings docentes, datos personales ni recomendaciones automáticas. |
 
-La IA se utilizó como herramienta de apoyo. Las decisiones sobre el problema, alcance, interpretación de los indicadores, limitaciones y criterios de validación fueron revisadas por el grupo antes de incorporarse al trabajo.
+La IA se utilizó como herramienta de apoyo. Las decisiones sobre el problema, alcance, variables, indicadores, flujo de intervención, interpretación, limitaciones y criterios de validación fueron revisadas por el grupo antes de incorporarse al trabajo.
 
 ---
 
