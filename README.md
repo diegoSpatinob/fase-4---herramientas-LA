@@ -20,51 +20,33 @@ La herramienta no emite juicios automáticos sobre el desempeño del profesor ni
 
 **Actor principal:** docente universitario.
 
-**Decisión apoyada:** identificar qué prácticas docentes mantener, revisar o mejorar a partir de la retroalimentación estudiantil.
-
-Actualmente, los comentarios abiertos requieren revisión manual y dificultan reconocer patrones recurrentes de manera sistemática. La herramienta propone organizar esa evidencia para que el docente pueda interpretarla antes de decidir una posible acción pedagógica.
+A partir de los comentarios estudiantiles, decide qué prácticas mantener, revisar o mejorar. Hoy puede apoyarse en lectura manual, normalmente tras evaluaciones o períodos académicos; la herramienta facilita patrones y evidencia textual. **La periodicidad institucional está por confirmar.**
 
 ### 2. Problema educativo
 
-Los comentarios abiertos pueden contener información útil sobre la experiencia de enseñanza, pero su naturaleza textual hace difícil resumirlos y detectar patrones cuando aumenta el número de respuestas.
+El volumen y carácter abierto de los comentarios dificultan identificar sistemáticamente prácticas recurrentes y oportunidades de mejora.
 
-El problema abordado no es “mejorar la docencia” de forma abstracta, sino **reducir la dificultad de convertir comentarios no estructurados en evidencia pedagógica interpretable**.
-
-La magnitud institucional exacta del problema todavía debe verificarse con datos reales autorizados de la Universidad de Cuenca.
+Se plantea explorar esta necesidad en la Universidad de Cuenca; todavía faltan **evidencia institucional y una estimación de las personas afectadas**.
 
 ### 3. Pregunta analítica
 
-> **¿Qué prácticas docentes efectivas, malfuncionales o ambiguas aparecen de forma recurrente en los comentarios de los estudiantes?**
+> **¿Qué prácticas docentes efectivas, malfuncionales o ambiguas se identifican recurrentemente en los comentarios estudiantiles?**
 
-- **Nivel de analítica:** descriptivo y diagnóstico.
-- **Tipo:** Teaching Analytics / analítica de enseñanza.
-
-La herramienta describe qué prácticas aparecen y con qué frecuencia, y permite examinar patrones recurrentes mediante sus valoraciones y evidencia textual asociada.
+- **Nivel:** descriptivo y diagnóstico.
+- **Tipo:** enseñanza (**Teaching Analytics**).
 
 ### 4. Datos e indicadores
 
-Datos principales:
+**Fuente:** comentarios abiertos de retroalimentación estudiantil; asignatura y período, si existen.
 
-- comentario estudiantil;
-- práctica docente identificada;
-- valoración de la práctica: efectiva, malfuncional o ambigua;
-- asignatura, si está disponible;
-- período académico, si está disponible.
+**Variables:** `id_comentario`, `comentario`, `practica_docente`, `valoracion`, `asignatura`, `periodo_academico` (ver diccionario de datos, Fase 2).
 
-Indicadores definidos:
+**Indicadores:**
 
-- **I01:** número de comentarios únicos analizados;
-- **I02:** número de comentarios únicos que mencionan cada práctica;
-- **I03:** porcentaje de comentarios que menciona cada práctica;
-- **I04:** distribución de valoraciones dentro de cada práctica.
-
-Indicador central:
-
-[
-P_j = \frac{N_j}{N} \times 100
-]
-
-donde (N) es el total de comentarios únicos y (N_j) el número de comentarios únicos que mencionan la práctica (j).
+- **I01:** total de comentarios únicos.
+- **I02:** comentarios únicos por práctica.
+- **I03:** (comentarios que mencionan la práctica / total de comentarios) × 100.
+- **I04:** (comentarios con valoración específica de la práctica / comentarios que mencionan esa práctica) × 100.
 
 Un comentario puede mencionar varias prácticas, por lo que los porcentajes entre prácticas no tienen que sumar 100 %.
 
@@ -72,81 +54,58 @@ Un comentario puede mencionar varias prácticas, por lo que los porcentajes entr
 
 El flujo propuesto es:
 
-**Panorama general → análisis de una práctica → evidencia textual → interpretación docente → posible acción pedagógica**
+**Panorama general → análisis de una práctica → comentarios desidentificados → decisión docente**
 
-El docente puede:
+El docente decide qué práctica mantener, revisar o mejorar.
 
-- mantener o fortalecer una práctica cuando existe evidencia favorable;
-- revisar una práctica cuando aparecen menciones malfuncionales recurrentes;
-- solicitar más información o no intervenir cuando la evidencia es ambigua o insuficiente.
-
-La herramienta no aplica umbrales automáticos ni ejecuta acciones sin intervención humana.
+La recurrencia funciona como una **señal de revisión**, sin umbral automático. La acción la ejecuta el docente; las notas de reflexión se visualizan en el prototipo, pero no se ha verificado su persistencia ni seguimiento. Si el docente no actúa, el sistema no ejecuta cambios automáticos.
 
 ### 6. Ética y privacidad
 
-La herramienta no requiere nombre, cédula, correo ni matrícula del estudiante.
+No se requieren nombres, correos ni matrículas de estudiantes.
 
-Medidas propuestas:
+Se propone:
 
 - desidentificar los comentarios antes del análisis;
-- eliminar identificadores directos o referencias que puedan revelar identidades;
-- utilizar identificadores técnicos para trazabilidad;
-- restringir el acceso a comentarios originales;
-- mostrar al docente principalmente resultados agregados y evidencia textual desidentificada;
-- verificar la autorización institucional o consentimiento correspondiente antes de utilizar datos reales.
+- limitar el acceso a los comentarios originales;
+- mostrar al docente resultados agregados y ejemplos textuales protegidos;
+- verificar autorización o consentimiento antes de utilizar datos reales.
 
-Los indicadores pueden verse afectados por participación desigual, opiniones extremas, lenguaje ambiguo, tamaños de muestra pequeños y errores del PLN. Por ello, deben interpretarse como **evidencia para reflexión**, no como una evaluación sancionadora automática.
+**Riesgos:** sesgo de participación, ambigüedad del lenguaje y errores del PLN. Los resultados no deben utilizarse como evaluación sancionadora automática del docente.
 
 ### 7. Prueba de concepto
 
-La PoC utiliza datos sintéticos generados mediante un script reproducible con semilla fija.
+La prueba de concepto consiste en un notebook de Python con datos sintéticos reproducibles:
 
-Estructura:
-
-- **200 comentarios sintéticos**;
-- **10 asignaturas** tomadas como contexto de la malla de Computación;
-- **2 períodos académicos**;
+- **200 comentarios**;
+- **301 menciones de prácticas**;
 - **5 prácticas docentes**;
-- valoraciones: efectiva, malfuncional y ambigua;
-- un comentario puede contener entre una y varias prácticas.
+- **10 asignaturas**;
+- **2 períodos académicos**.
 
-Archivos principales:
+Se calculan los indicadores **I01–I04** y se visualizan resultados mediante **Plotly**.
 
-- `generar_dataset_sintetico.py`
-- `comentarios_sinteticos.csv`
-- `menciones_practicas.csv`
-- `Fase_4_Prueba_de_Concepto_Teaching_Analytics.ipynb`
-
-La PoC demuestra que los indicadores I01–I04 son calculables y que pueden representarse mediante visualizaciones tipo tablero con Plotly.
+La PoC demuestra que los indicadores pueden calcularse y visualizarse, pero **no demuestra detección automática mediante un modelo PLN real ni utilidad pedagógica en campo**.
 
 ### 8. Validación
 
-Se propone una validación en tres niveles:
+**Hipótesis propuesta:** el tablero facilita interpretar patrones y tomar decisiones docentes frente a una revisión sin tablero.
 
-**Técnica**
-- Macro-F1 y métricas por categoría para evaluar el futuro modelo de PLN con datos reales anotados.
-- Revisión de falsos positivos y falsos negativos.
+El plan contempla:
 
-**Pedagógica**
-- Comparar el tiempo y la calidad de la decisión docente con y sin tablero.
-- Analizar si la herramienta permite identificar patrones que no se detectan fácilmente mediante revisión manual.
+- **Validación pedagógica:** comparación con/sin tablero en tiempo y calidad de la decisión.
+- **Validación técnica futura del PLN:** Macro-F1 y métricas por práctica.
+- **Usabilidad:** SUS y entrevistas.
 
-**Usabilidad**
-- Aplicar SUS (System Usability Scale).
-- Complementar con entrevistas o preguntas abiertas a docentes.
-
-**Criterio de éxito:** que la herramienta produzca información técnicamente confiable, interpretable y útil para apoyar una decisión docente sin sustituir el criterio humano.
+Los criterios cuantitativos de éxito todavía deben acordarse y la validación **no ha sido ejecutada**.
 
 ### 9. Preguntas abiertas para estadística
 
-Quedan abiertas preguntas que requieren métodos estadísticos para responderse, entre ellas:
-
-- ¿Cuántos comentarios son necesarios para que los porcentajes por práctica sean suficientemente estables?
-- ¿Qué incertidumbre acompaña a cada porcentaje observado?
-- ¿Existen diferencias significativas entre asignaturas o períodos?
-- ¿El uso del tablero reduce significativamente el tiempo necesario para analizar comentarios?
-- ¿Mejora la calidad o consistencia de las decisiones docentes?
-- ¿Qué nivel de acuerdo existe entre anotadores humanos al clasificar prácticas y valoraciones?
+- ¿Qué tamaño de muestra necesitamos?
+- ¿Cómo estimar la incertidumbre de los indicadores?
+- ¿Cómo comparar asignaturas o períodos?
+- ¿Cómo evaluar la mejora en la toma de decisiones docentes?
+- ¿Cómo considerar los sesgos y errores del PLN?
 
 ---
 
